@@ -1,0 +1,23 @@
+---
+layout: post
+title: Reverse tethering on HTC
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+---
+Yesterday I wanted to share cable ethernet connection by WiFi. Unluckily open-source drivers don't support AP mode on my laptop and wl driver doesn't want to compile with my kernel. So I though that I will tunnel connection to HTC Desire X and than create Wi-Fi hotspot.
+
+In HTC Sense there is an option to pass internet from computer to phone, which is not possible on raw Android. However, as message says it requires HTC Sync, which is not available for Linux. At first, I thought that it uses "normal" USB tunneled ethernet, as straight tethering, so I listened on usb0 with wireshark. The wire was silent (except IPv6 router solicitation, which probably wasn't disabled by HTC engineers, because it's done by kernel).
+
+Than I found <a href="http://neuronafugada.wordpress.com/2012/04/09/htc-reverse-tethering-on-linux-without-root/">article</a> that states that HTC uses propetriary "solution" - you need request IP by DHCP from phone and then to send bytes 00 02 00 00 to [phoneip]:6000. Unfortunately that didn't work with my phone. At least an stacktrace was printed by Settings app to log - it mentioned EOF error in class PSService.
+
+Without thinking much I downloaded HTC Desire X ROM from xda-developers, backsmali (dalvik unoptimizer), dex2jar (dalvik -&gt; java class convert). After decompiling said class I found code that apparently did nothing. It just echoed 4 bytes (if the were equal to 00 00 02 00) and than read next 4 bytes and compared it to 00 00 03 00. When this test passed it just enabled reverse tethering, which would normally timeout.
+<h3>Summary</h3>
+To do reverse tether on HTC Desire X, connect phone, choose reverse tethering from menu and execute:
+<pre>dhclient -v usb0</pre>
+<pre>echo -e "\x00\x00\x02\x00\x00\x00\x03\x00" | nc [dhcp server ip] 6000</pre>
+<pre>and do usual masquarade (iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE; sysctl net.ipv4.ip_forward = 1).</pre>

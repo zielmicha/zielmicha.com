@@ -1,0 +1,31 @@
+---
+layout: post
+title: Kernel-space GC?
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+---
+Conservative garbage collector are considered inelegant. Instead of distinguishing references from normal objects they treat everything as if it is a pointer.
+
+But what about going to extreme: handle garbage collection in kernel and pretend that process has infinite amount of memory? Kernel would free pages that has no pointers pointing at.
+
+All user-space memory handling could be replaced with:
+<pre>static char* malloc_last_alloc = some predefined value;
+void* malloc(int size) {
+    if(malloc_last_alloc % PAGE_SIZE != (malloc_last_alloc + size) % PAGE_SIZE) {
+       // we don't want allocs that span between page, waste remaining memory
+       malloc_last_alloc += PAGE_SIZE - (malloc_last_alloc % PAGE_SIZE)
+    }
+    brk(malloc_last_alloc + size);
+    if(size &gt; PAGE_SIZE) {
+        syscall(mark_pages_as_single_alloc, malloc_last_alloc, malloc_last_alloc + size);
+    }
+    void* ret = (void*)malloc_last_alloc;
+    malloc_last_alloc += size;
+    return ret;
+}</pre>
+Ok, this is just insane idea, but maybe someday?

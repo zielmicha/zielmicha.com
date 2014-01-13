@@ -1,0 +1,8 @@
+name: zielmicha
+markdown: redcarpet
+pygments: true
+
+permalink: /:title
+paginate: 10
+#auto: false
+#lsi: true

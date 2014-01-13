@@ -1,0 +1,19 @@
+---
+layout: post
+title: Why I don't like Clojure as much as I could
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+---
+<ul>
+	<li>ignoring fact that exceptions exist - only lowest level functions throw them, which makes debugging really hard</li>
+	<li>weak typing: thing like asking array to return element with number :foobar silently return nil, instead of throwing an exception</li>
+	<li>requesting non-existing members in dict and records returns nil, which is Clojure equivalent for null - a half of all exceptions which I get is NullPointerException. [Interestingly many other languages do that (Python is a notable exception - it has policy of throwing exceptions wherever possible) which is probably the reason why people want to use null-safe languages]</li>
+	<li>lack of support for newspaper metaphor - function can only use symbols that are defined before its definition. That encourages to put helper functions in top of code - something that feels really C (or worse, Pascal) and decreases readability.</li>
+	<li>putting responsibilities for core functionality in Java libraries - each time I want to do something that comes naturally in sane* languages, like defining iterable type, I have to resort to implementing Java interfaces, which I don't really care about.</li>
+</ul>
+* sane language - I consider the following languages sane: Python, Ruby, C++, C#. The key feature of sane language is polymorphism. I was thinking about including Common Lisp is this list, but its loop macro (and other functions) doesn't treat lists and vectors the same way.
