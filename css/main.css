@@ -2,6 +2,16 @@
     max-width: 700px;
 }
 
+body {
+
+}
+
+.container {
+    margin-top: 0.2em;
+    background-color: white;
+    padding-right: 1em;
+}
+
 .content {
     text-align: justify;
 }
@@ -14,4 +24,26 @@
     padding-left: 1em;
     display: inline-block;
     float: right;
+}
+
+.projects {
+    margin-bottom: 1em;
+    border-left: 1px solid #ddd;
+}
+
+.projects > div {
+    /*text-align: left;*/
+    border: 1px solid #ddd;
+    border-left: none;
+}
+
+.projects img {
+    width: 100%;
+}
+
+.projects .t {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 0.3em;
+    font-size: 1.2em;
 }
