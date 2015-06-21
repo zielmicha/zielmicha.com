@@ -10,6 +10,10 @@ button a, a.btn {
     text-decoration: none;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background: url('/images/fractal4.jpg') black;
@@ -21,18 +25,19 @@ body {
 .container {
     margin: 0 auto;
 
-    padding-right: 1em;
     float: none;
 
-    padding-left: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
 
     background: black;
     background: rgba(0, 0, 0, 0.95);
 }
 
-@media screen and (max-device-width: 640px) {
+@media screen and (max-device-width: 720px) {
     .container {
         padding-left: 0;
+        padding-right: 0;
     }
 }
 

@@ -20,4 +20,5 @@ Without thinking much I downloaded HTC Desire X ROM from xda-developers, backsma
 To do reverse tether on HTC Desire X, connect phone, choose reverse tethering from menu and execute:
 <pre>dhclient -v usb0</pre>
 <pre>echo -e "\x00\x00\x02\x00\x00\x00\x03\x00" | nc [dhcp server ip] 6000</pre>
-<pre>and do usual masquarade (iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE; sysctl net.ipv4.ip_forward = 1).</pre>
+and do the usual masquarade:
+<pre>iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE; sysctl net.ipv4.ip_forward = 1</pre>
