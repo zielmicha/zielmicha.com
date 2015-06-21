@@ -23,11 +23,16 @@
     </head>
     <body>
 
-      <div class="container row">
-        <div class="site col-md-8 col-md-offset-2">
-          <h1 class=title><a href="/">{{ site.name }}</a></h1>
-          <div class="header">
+      <div class="row-container">
+      <div class="container">
+        <div class="site">
+          <div class="navbar-header">
+            <a href="/" class="navbar-brand">{{ site.name }}</a>
           </div>
+          <nav id="bs-navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+            </ul>
+          </nav>
 
           <div class=content>{{ content }}</div>
           <hr>
@@ -46,4 +51,5 @@
               </p>
             </div>
           </div>
+        </div>
         </div>
