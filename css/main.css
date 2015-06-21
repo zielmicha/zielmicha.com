@@ -3,13 +3,31 @@
 }
 
 body {
+    font-family: 'Open Sans', sans-serif;
+}
 
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
     margin-top: 0.2em;
     background-color: white;
     padding-right: 1em;
+}
+
+.project-list {
+    list-style-type: none;
+}
+
+.project-list li {
+    padding-bottom: 1em;
+}
+
+.project-list img {
+    width: 15em;
+    display: block;
+    border: 1px solid #eee;
 }
 
 .content {

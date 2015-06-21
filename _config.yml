@@ -1,6 +1,6 @@
 name: zielmicha
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 permalink: /:title
 paginate: 10
