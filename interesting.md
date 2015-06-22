@@ -9,8 +9,8 @@ layout: default
 
 ### Hardware
 
- * [http://www.bunniestudios.com/blog/?p=4297](From Gongkai to Open Source) MT6260
+ * [From Gongkai to Open Source](http://www.bunniestudios.com/blog/?p=4297) MT6260
 
 ### Cryptography
 
- * [http://webee.technion.ac.il/~hugo/rhash/implementation.pdf](Randomized hashes paper)
+ * [Randomized hashes paper](http://webee.technion.ac.il/~hugo/rhash/implementation.pdf)
