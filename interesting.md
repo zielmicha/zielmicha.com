@@ -14,3 +14,7 @@ layout: default
 ### Cryptography
 
  * [Randomized hashes paper](http://webee.technion.ac.il/~hugo/rhash/implementation.pdf)
+
+### Physics
+
+ * [Mechanical memristor model](http://arxiv.org/pdf/1205.6129.pdf)
