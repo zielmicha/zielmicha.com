@@ -17,4 +17,4 @@ layout: default
 
 ### Physics
 
- * [Mechanical memristor model](http://arxiv.org/pdf/1205.6129.pdf)
+ * [Mechanical memristor model](http://www.nature.com/srep/2015/150625/srep11657/pdf/srep11657.pdf)
