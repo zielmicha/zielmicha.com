@@ -18,3 +18,7 @@ layout: default
 ### Physics
 
  * [Mechanical memristor model](http://www.nature.com/srep/2015/150625/srep11657/pdf/srep11657.pdf)
+
+### Math
+
+ * [p-adics](http://ham.so/2015/07/03/p-adics.html)
