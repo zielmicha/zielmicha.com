@@ -2,6 +2,8 @@
 layout: default
 ---
 
+> Unix makes a lot more sense if you think of it as a long-running human experiment to enumerate all possible ASCII config file formats.
+
 ### Popular science
 
  * Black holes - [Fuzzballs, Firewalls and all that...](http://www.physics.ohio-state.edu/~mathur/fuzzballparadigm.pdf)
