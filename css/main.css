@@ -121,3 +121,10 @@ h1, h2, h3 {
 .soclink span {
     display: block;
 }
+
+.other-projects {
+    width: 100%;
+    background: white;
+    color: black;
+    border-color: #ccc;
+}
