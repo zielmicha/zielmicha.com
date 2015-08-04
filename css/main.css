@@ -16,7 +16,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background: url('/images/fractal4.jpg') black;
+    background: url('/images/fractal4white.jpg') white;
     background-size: 100%;
     background-repeat-y: no;
     background-attachment: fixed;
@@ -30,8 +30,8 @@ body {
     padding-left: 2em;
     padding-right: 2em;
 
-    background: black;
-    background: rgba(0, 0, 0, 0.95);
+    background: white;
+    background: rgba(255, 255, 255, 0.95);
 }
 
 @media screen and (max-device-width: 720px) {
@@ -59,7 +59,7 @@ h1, h2, h3 {
 .project-list img {
     width: 15em;
     display: block;
-    border: 1px solid #333;
+    border: 1px solid #bbb;
 }
 
 .content {
