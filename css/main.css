@@ -107,3 +107,16 @@ h1, h2, h3 {
     margin-top: 0.3em;
     font-size: 1.2em;
 }
+
+.soclink .fa {
+    font-size: 5em;
+    color: black;
+}
+
+.soclink {
+    text-align: center;
+}
+
+.soclink span {
+    display: block;
+}

@@ -3,6 +3,37 @@ layout: default
 title: zielmicha
 ---
 
+
+<div class="row topsocial">
+  <div class="col-md-4 soclink">
+    <a href="https://github.com/zielmicha">
+      <i class="fa fa-github-alt"></i>
+      <span>my github profile</span>
+    </a>
+  </div>
+  <div class="col-md-4 soclink">
+    <a href="https://twitter.com/zielmicha">
+      <i class="fa fa-twitter"></i>
+      <span>my twitter account</span>
+    </a>
+  </div>
+  <div class="col-md-4 soclink">
+    <a href="mailto:michal@zielinscy.org.pl">
+      <i class="fa fa-envelope-o"></i>
+      <span>michal@zielinscy.org.pl</span>
+    </a>
+  </div>
+  <!--
+  <div class="col-md-4 soclink">
+    <a href="https://www.linkedin.com/profile/view?id=156272581">
+      <i class="fa fa-linkedin"></i>
+      <span>my linkedin profile</span>
+    </a>
+  </div>
+  -->
+</div>
+
+
 <h2>My projects</h2>
 
 <div class="row projects">
@@ -61,7 +92,7 @@ style="box-sizing: border-box; padding: 10px; padding-bottom: 20%; padding-top: 
     <li><a href="/resources.html">Resources</a> (system images, kernels...)
   </ul>
 
-  <h2>Blog Posts</h2>
+  <h2>(Old) Blog Posts</h2>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}/">{{ post.title }}</a></li>
