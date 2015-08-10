@@ -12,6 +12,7 @@ layout: default
 ### Hardware
 
  * [From Gongkai to Open Source](http://www.bunniestudios.com/blog/?p=4297) MT6260
+ * [Ethernet on codingrelic](http://codingrelic.geekhold.com/search/label/Ethernet)
 
 ### Cryptography
 
