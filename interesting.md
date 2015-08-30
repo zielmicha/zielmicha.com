@@ -18,6 +18,10 @@ layout: default
 
  * [Randomized hashes paper](http://webee.technion.ac.il/~hugo/rhash/implementation.pdf)
 
+### Machine learning
+
+ * [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+
 ### Physics
 
  * [Mechanical memristor model](http://www.nature.com/srep/2015/150625/srep11657/pdf/srep11657.pdf)
