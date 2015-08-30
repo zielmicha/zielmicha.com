@@ -21,6 +21,7 @@ layout: default
 ### Machine learning
 
  * [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+ * [A Neural Algorithm of Artistic Style](http://arxiv.org/pdf/1508.06576v1.pdf)
 
 ### Physics
 
