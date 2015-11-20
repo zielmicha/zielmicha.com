@@ -17,11 +17,16 @@ layout: default
 ### Cryptography
 
  * [Randomized hashes paper](http://webee.technion.ac.il/~hugo/rhash/implementation.pdf)
+ * [Break a dozen secret keys, get a million more for free](http://ecrypt-eu.blogspot.de/2015/11/break-dozen-secret-keys-get-million.html)
 
 ### Machine learning
 
  * [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
  * [A Neural Algorithm of Artistic Style](http://arxiv.org/pdf/1508.06576v1.pdf)
+
+### Computer Science other
+
+ * [Midori - Asynchronous Everything](http://joeduffyblog.com/2015/11/19/asynchronous-everything/)
 
 ### Physics
 
