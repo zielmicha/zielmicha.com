@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/zielmicha
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://zielmicha.com
+  * I am zielmicha (https://keybase.io/zielmicha) on keybase.
+  * I have a public key with fingerprint A14E C3B0 4C56 EB0C F9BB  E8E2 F210 4910 7865 BD23
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101e0232457669a1ab7afeafc8c2a9023f4c8259ea9fb664be0e7435de92a3a276a0a",
+            "fingerprint": "a14ec3b04c56eb0cf9bbe8e2f21049107865bd23",
+            "host": "keybase.io",
+            "key_id": "f21049107865bd23",
+            "kid": "0101e0232457669a1ab7afeafc8c2a9023f4c8259ea9fb664be0e7435de92a3a276a0a",
+            "uid": "af5d9dd24845cb24dc0d9499a5083519",
+            "username": "zielmicha"
+        },
+        "service": {
+            "hostname": "zielmicha.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1448113993,
+    "expire_in": 157680000,
+    "prev": "f16355426f00e2119b4aefd0fe4d47aca899b619cfa26d3f660b692e83ab84b8",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUm1QVGUUXnaRDPyAUtTSgS7rKIZwv/e+y4BjFgKD4ACCI+n23nvfC1d29667
+C4hGaZoBpbioOEESwwyCC4yUDRZi449QJrKdsA9H0KKJDDMKU1phje5l6k/Tz94/
+Z95znuc55zxzjs436PRB98LTwnejizFBA2O8Lm9zWc5ejFfEcsy8FytGswFZReRy
+W4plETNjOIETCCcpkmZMLAsgAXkTlBCUBE4gIVArEi1wJAMQBBLPsjSPcGSiKUZE
+gIQUJE0sxCEWh0myvRA5HU7Z7lZlIUEjgeJxWmBYxOOCBHgecYiUSAKnAYGbOJbh
+RZJSiUWKS2Oow/HQheJlRc2pH8vseP+B/5/nLpmVgxIjAlEkaY5mBJ6kRQEXAQ0A
+ZHCOYgigAV3IaYc2pKL3yMhqk4UiiFXEYWq6VBaQ5qy2yr8h8YJiU9kOp+JWBMWq
+lorcbofLrFHd5Q4NW4Z4y98qFl62i6qTKqMUOV2yYsfMhIoU3LImS9A0RxAUAFQc
+hnY7ZCeyyBpC9YDD1af1QaWabwRLMdsYmmQlHEckQQCehkgScQnRIm2CAuQA4FkC
+CBIkWZGSWBbnWUAijoI8R/Mcpi22y65gZrWVGxaqmi650A7dJU6EVYRW6ZcH64L0
+upA5eu3GdKGPh/9zeC13Fs5kHVhxuc2w83rH5VfJ+rDCHYGMiw1bP/F6XLnjjW0J
+w+WX8rf7O5J/PZl7bcmyEXfE+y07Ynr74339zyT1Ndzz+HKCx3My9eKp47dT3zb2
+TY5OL45ZmhzKdG3aIJDp+5sbK6fvvxjdHnz0J/nbqhuB5ddixxNjJevMouMTvYnM
+kebajPvnkzf2HKqj9z//QZyf9ObkVmXZH926sKtNCQmMfzena81HPZGh7YEPC5pH
+Xz526L1f3opoqL7750a2eLhoyLTgtYKTsY6qhLrJT5vS960dygv435gOdF31ktfD
+T18JOxvZlhtl2yeturkiSdqwNGW9P0/8YwqMZD1R53G29AsDW3ynZlbafP1rh8Os
+o47ORfEN62rM+dS6qClTKD0AEh6lyvO8886VWheI1Q/Ozn2lz+s3ffM582aFqX2y
+tb++yZa+5zFn9rlbP9QeaXx27IwvtvJwTeyWB4uTxU1XW6cezj2fUnXB2FjRlWgY
+VLY2Jaz/vvNOZrevPqLWk+F4d/DnyNu53u5B9gtYMrna8HvfNn1qc3Vq9M7Xvy6b
+6S5M+/FhUFh2a4iUlBY3cvCuLsTzWxQW/PGIsaa6gPtsWe9gx5hwYk1PZ6UxfPuZ
+EEOTfmbhkO2mJfPLiQPGF/Jf2mw4nD7lb3l65MpK6rno1fNPo1XGia+efOpGVnc8
+XJJU50k5eOmd7OT8vwA=
+=Jihv
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zielmicha
+
+==================================================================
