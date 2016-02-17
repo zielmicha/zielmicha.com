@@ -2,6 +2,8 @@
 layout: default
 ---
 
+> If you need more power, try some of the DNS functions like `gethostbyname()` or attempt a coup d'État in your local country.
+
 * [Write in Go](https://www.youtube.com/watch?v=LJvEIjRBSDA)
 * [JavaZone X: The Streaming](https://www.youtube.com/watch?v=5U1_KW6ww7Y)
 * [JavaZone: Java Forever And Ever Movie](https://www.youtube.com/watch?v=RnqAXuLZlaE)

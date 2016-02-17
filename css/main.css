@@ -2,6 +2,12 @@ h1 {
     margin-bottom: 0.4em;
 }
 
+h1 .subtitle {
+    color: #aaa;
+    font-size: 80%;
+    margin-left: 0.3em;
+}
+
 .container {
     max-width: 790px;
 }
