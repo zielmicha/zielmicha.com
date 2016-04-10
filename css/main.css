@@ -138,3 +138,15 @@ h1, h2, h3 {
     color: black;
     border-color: #ccc;
 }
+
+.i-think table td.ok {
+    background-color: rgb(100, 255, 100);
+}
+
+.i-think table td.soso {
+    background-color: rgb(255, 255, 100);
+}
+
+.i-think table td.bad {
+    background-color: rgb(255, 130, 130);
+}
